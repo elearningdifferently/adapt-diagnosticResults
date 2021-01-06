@@ -1,0 +1,36 @@
+{
+    "_id": "c-03",
+    "_parentId": "b-03",
+    "_type": "component",
+    "_component": "diagnosticResults",
+    "_classes": "",
+    "_layout": "full",
+    "_isVisibleBeforeCompletion": false,
+    "_assessmentId": "diagnostic",
+    "title": "Results",
+    "displayTitle": "Results",
+    "body": "",
+    "instruction": "",
+    "_continue": {
+        "button": "Continue to course"
+    },
+    "_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
+    "_completionBody": "{{{feedback}}}",
+    "_bands": [
+        {
+            "_score": 0,
+            "feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You will need to complete a final assessment to complete this course."
+        },
+        {
+            "_score": 50,
+            "feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>Based on this, you do not need to complete a final assessment."
+        },
+        {
+            "_score": 100,
+            "feedback": "You passed, achieving a perfect score.<br><br>Based on this, you do not need to complete a final assessment."
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+}

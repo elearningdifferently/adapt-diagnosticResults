@@ -1,0 +1,18 @@
+{
+  "name": "adapt-diagnosticResults",
+  "version": "0.1.0",
+  "framework": ">=5.5",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cgkineo/adapt-diagnosticResults"
+  },
+  "displayName" : "Diagnostic Results",
+  "component" : "diagnosticResults",
+  "description": "A component used to display results for a diagnostic assessment.",
+  "main": "/js/adapt-diagnosticResults.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3"
+}

@@ -1,0 +1,22 @@
+{{! make the _globals object in course.json available to this template}}
+{{import_globals}}
+<div class="diagnosticresults__inner component__inner">
+  {{> component this}}
+  <div class="diagnosticresults___widget component__widget">
+    {{#if isContinueEnabled}}
+    <div class="component__feedback diagnosticresults__feedback">
+      <div class="component__feedback-inner diagnosticresults__feedback-inner">
+
+        <button class="btn-text diagnosticresults__continue-btn js-diagnostic-continue-btn">
+          <span>
+            {{#if _continue.button}}
+              {{_continue.button}}
+            {{else}}
+              Continue
+            {{/if}}
+          </span>
+        </button>
+      </div>
+    </div>
+    {{/if}}
+</div>
