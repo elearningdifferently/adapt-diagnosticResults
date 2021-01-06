@@ -7,7 +7,7 @@ Most of the functionality is similar to that of the assessmentResults component,
 
 If the course has mandatory content, or content that must be completed due to the learner failing a diagnostic question, a continue button will be shown to navigate to the main course.
 
-This component does not have the retry functionailty found in the base assessmentResults component.
+This component does not have the retry functionality found in the base assessmentResults component.
 
 ### Attributes
 **_continue** (object): Contains value for **button**.
