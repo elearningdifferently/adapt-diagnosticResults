@@ -1,7 +1,7 @@
 
 # adapt-diagnosticResults
 
-**Diagnostic Results** is a modified version of [adapt-contrib-assessmentResults](https://github.com/adaptlearning/adapt-contrib-assessmentResults/) to be used in conjunction with the [adapt-adaptiveContent](https://github.com/cgkineo/adapt-adaptiveContent) and [adapt-contrib-assessment](https://github.com/adaptlearning/adapt-contrib-assessment) extensions.
+**Diagnostic Results** is a modified version of [adapt-contrib-assessmentResults](https://github.com/adaptlearning/adapt-contrib-assessmentResults/) to be used in conjunction with the [adapt-diagnostic](https://github.com/cgkineo/adapt-diagnostic) and [adapt-contrib-assessment](https://github.com/adaptlearning/adapt-contrib-assessment) extensions.
 
 Most of the functionality is similar to that of the assessmentResults component, so this readme will only discuss the modifications.
 
