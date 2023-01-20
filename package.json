@@ -5,7 +5,7 @@
     "url": "git://github.com/cgkineo/adapt-diagnosticResults.git"
   },
   "framework": ">=5.5",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "displayName": "Diagnostic Results",
   "component": "diagnosticResults",
   "description": "A component used to display results for a diagnostic assessment.",
